@@ -1,0 +1,13 @@
+$(document).ready(function(){
+  $(window).load(function(){
+    $("#title_background_text").delay(500).animate({left:'800'});
+    $("#title_background_text").delay(1000).animate({opacity:'0'});
+    $("#title_background_name").delay(1500).animate({opacity:'.75'});
+    $("#button_wrapper").delay(2000).animate({opacity:'.75'});
+    $("#btn4").delay(2200).animate({opacity:'.75'});
+    $("#btn3").delay(2400).animate({opacity:'.75'});
+    $("#btn2").delay(2600).animate({opacity:'.75'});
+    $("#btn1").delay(2800).animate({opacity:'.75'});
+    $(".container").delay(3000).animate({opacity:'.75'});
+  });
+});
